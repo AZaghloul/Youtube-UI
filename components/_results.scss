@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Results of YouTube Challange
+// -----------------------------------------------------------------------------
+/* --------------------- Mobile styles --------------------- */
+.results {
+  padding-left: 10px;
+  .result {
+    margin-top: 20px;
+  }
+}
+
+/* --------------------- small tablet styles --------------------- */
+@media screen and (min-width: 620px) {
+  .results {
+    padding-left: 0px;
+  }
+}
