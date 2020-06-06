@@ -1,0 +1,37 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the DDL of YouTube Mobile Filter
+// -----------------------------------------------------------------------------
+/* --------------------- Mobile styles --------------------- */
+.ddl {
+  position: relative;
+  display: inline-block;
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 40px;
+    font-size: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 10px 50px 10px 10px;
+    &:hover,
+    &:focus {
+      border: 1px solid #e0e0e0;
+    }
+  }
+
+  &:after {
+    content: ">";
+    font: 17px "Consolas", monospace;
+    color: #333;
+    position: absolute;
+    right: 8px;
+    top: 9px;
+    transform: rotate(90deg);
+    padding: 0 0 2px;
+    pointer-events: none;
+  }
+}

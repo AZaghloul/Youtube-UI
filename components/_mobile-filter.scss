@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of YouTube Challange
+// -----------------------------------------------------------------------------
+/* --------------------- Mobile styles --------------------- */
+.mobile-filter {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  .ddl {
+    margin: 10px 0px 10px 10px;
+  }
+}
+
+/* --------------------- small tablet styles --------------------- */
+@media screen and (min-width: 620px) {
+  .mobile-filter {
+    display: none;
+  }
+}

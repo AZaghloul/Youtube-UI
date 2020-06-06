@@ -1,0 +1,73 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the PC Filter Options of YouTube Challange
+// -----------------------------------------------------------------------------
+/* --------------------- Mobile styles --------------------- */
+.pc-filter-options {
+  display: none;
+  article {
+    min-width: 150px;
+    h4 {
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    p {
+      color: #b0b0b0;
+      cursor: pointer;
+      &.selected {
+        color: black;
+        font-weight: 900;
+
+        &::after {
+          content: "X";
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          padding: 12px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+/* --------------------- small tablet styles --------------------- */
+@media screen and (min-width: 620px) {
+  .filter-mode {
+    .pc-filter-options {
+      display: flex;
+      article {
+        margin-left: 55px;
+        &:nth-child(1) {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}
+
+/*--------------------- large tablet & laptop styles ---------------------*/
+@media screen and (min-width: 960px) {
+  .filter-mode {
+    .pc-filter-options {
+      article {
+        margin-left: 100px;
+        &:nth-child(1) {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}
+
+/*--------------------- desktop styles ---------------------*/
+@media screen and (min-width: 1200px) {
+  .filter-mode {
+    .pc-filter-options {
+      article {
+        margin-left: 200px;
+        &:nth-child(1) {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}

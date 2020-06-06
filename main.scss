@@ -17,9 +17,11 @@
 //   'base/helpers';
 
 // 4. Layout-related sections
-// @import "layout/header", "layout/footer";
+@import "layout/header", "layout/footer";
 
 // 5. Components
+@import "components/ddl", "components/mobile-filter",
+  "components/pc-filter-options", "components/pc-filter";
 
 // // 6. Page-specific styles
 // @import

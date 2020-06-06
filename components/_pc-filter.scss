@@ -1,0 +1,37 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the PC Filter of YouTube Challange
+// -----------------------------------------------------------------------------
+/* --------------------- Mobile styles --------------------- */
+.pc-filter {
+  display: none;
+}
+
+/* --------------------- small tablet styles --------------------- */
+@media screen and (min-width: 620px) {
+  .pc-filter {
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 auto;
+    width: 560px;
+    display: flex;
+
+    .pc-filter__icon {
+      cursor: pointer;
+    }
+  }
+}
+
+/*--------------------- large tablet & laptop styles ---------------------*/
+@media screen and (min-width: 960px) {
+  .pc-filter {
+    width: 860px;
+  }
+}
+
+/*--------------------- desktop styles ---------------------*/
+@media screen and (min-width: 1200px) {
+  .pc-filter {
+    width: 1140px;
+  }
+}
