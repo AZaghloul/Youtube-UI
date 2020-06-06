@@ -1,0 +1,36 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+  .container {
+    padding-top: 50px;
+    width: 560px;
+  }
+}
+
+/*--------------------- large tablet & laptop styles ---------------------*/
+@media screen and (min-width: 960px) {
+  .container {
+    width: 860px;
+  }
+}
+
+/*--------------------- desktop styles ---------------------*/
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
