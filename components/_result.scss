@@ -28,6 +28,8 @@
   &--channel {
     .result__img {
       clip-path: circle(50px at center);
+      margin-left: 50px;
+      margin-right: 50px;
     }
     .result__details {
       margin-top: 10px;
@@ -46,6 +48,8 @@
     &--channel {
       .result__img {
         clip-path: circle(65px at center);
+        margin-left: 50px;
+        margin-right: 50px;
       }
       .result__details {
         margin-top: 15px;
