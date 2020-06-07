@@ -10,18 +10,13 @@
 @import "vendors/normalize";
 
 // // 3. Base stuff
-// @import
-//   'base/base',
-//   'base/fonts',
-//   'base/typography',
-//   'base/helpers';
-
+@import "base/base", "base/fonts", "base/typography";
 // 4. Layout-related sections
 @import "layout/header", "layout/footer";
 
 // 5. Components
-@import "components/ddl", "components/mobile-filter",
-  "components/pc-filter-options", "components/pc-filter";
+@import "components/ddl", "components/mobile-filter", "components/pc-filter",
+  "components/pc-filter-options", "components/results", "components/result";
 
 // // 6. Page-specific styles
 // @import

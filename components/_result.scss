@@ -9,6 +9,7 @@
   }
   .result__details {
     margin-left: 15px;
+    margin-top: 5px;
     h3,
     p {
       margin: 0;
@@ -22,6 +23,16 @@
       }
     }
   }
+
+  /*----------- Modifier ----------- */
+  &--channel {
+    .result__img {
+      clip-path: circle(50px at center);
+    }
+    .result__details {
+      margin-top: 10px;
+    }
+  }
 }
 
 /* --------------------- small tablet styles --------------------- */
@@ -29,6 +40,16 @@
   .result {
     .result__img {
       height: 130px;
+    }
+
+    /*----------- Modifier ----------- */
+    &--channel {
+      .result__img {
+        clip-path: circle(65px at center);
+      }
+      .result__details {
+        margin-top: 15px;
+      }
     }
   }
 }
