@@ -1,0 +1,30 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  &__img {
+    flex-shrink: 0;
+    width: auto;
+    height: 80px;
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
+
+/* --------------------- small tablet styles --------------------- */
+@media screen and (min-width: 620px) {
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    &__img {
+      flex-shrink: 0;
+      width: auto;
+      height: 120px;
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
+}
