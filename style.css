@@ -588,6 +588,17 @@ header {
     margin-right: 40px; }
   .result--channel .result__details {
     margin-top: 10px; }
+  .result--playlist .result__details {
+    position: relative; }
+    .result--playlist .result__details::before {
+      content: " ";
+      position: absolute;
+      z-index: 111;
+      width: 70px;
+      height: 100px;
+      top: -5px;
+      left: -85px;
+      background-color: rgba(0, 0, 0, 0.6); }
 
 /* --------------------- small tablet styles --------------------- */
 @media screen and (min-width: 620px) {
@@ -600,7 +611,12 @@ header {
       margin-left: 50px;
       margin-right: 50px; }
     .result--channel .result__details {
-      margin-top: 15px; } }
+      margin-top: 15px; }
+    .result--playlist .result__details::before {
+      width: 90px;
+      height: 130px;
+      top: -5px;
+      left: -105px; } }
 
 /* --------------------- Mobile styles --------------------- */
 .show-more {
