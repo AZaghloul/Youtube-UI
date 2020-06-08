@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the Show-More of YouTube Challange
+// -----------------------------------------------------------------------------
+/* --------------------- Mobile styles --------------------- */
+.show-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 20px;
+  cursor: pointer;
+  &--pc {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* --------------------- small tablet styles --------------------- */
+@media screen and (min-width: 620px) {
+  .show-more {
+    display: none;
+    &--pc {
+      display: flex;
+    }
+  }
+}

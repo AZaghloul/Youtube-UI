@@ -6,6 +6,7 @@
   display: flex;
   .result__img {
     height: 100px;
+    z-index: -1;
   }
   .result__details {
     margin-left: 15px;

@@ -3,7 +3,7 @@
 // // 1. Configuration and helpers
 // @import
 //   'abstracts/variables',
-//   'abstracts/functions',
+//   'abstracts/functions',s
 //   'abstracts/mixins';
 
 // // 2. Vendors
@@ -16,7 +16,9 @@
 
 // 5. Components
 @import "components/ddl", "components/mobile-filter", "components/pc-filter",
-  "components/pc-filter-options", "components/results", "components/result";
+  "components/pc-filter-options", "components/results", "components/result",
+  "components/show-more", "components/loader", "components/spinner",
+  "components/loading-bar";
 
 // // 6. Page-specific styles
 // @import
