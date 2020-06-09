@@ -27,8 +27,12 @@ node-sass main.scss style.css
 
 ## Built With
 
-* [Sass](https://sass-lang.com/) 
-* [BEM](http://getbem.com/) 
+* [Sass](https://sass-lang.com/) <br/>
+CSS Preprocessor that adds power and elegance to the basic language.
+* [BEM](http://getbem.com/) <br/>
+Methodology that helps you to create reusable components and code sharing in front-end development.
+* [7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern) <br/>
+Folder architecture help to organize the coding process. 
 * ...others
 
 
