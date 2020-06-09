@@ -44,7 +44,7 @@
         content: " ";
         position: absolute;
         z-index: 111;
-
+        z-index: -1;
         width: 70px;
         height: 100px;
         top: -5px;
@@ -81,6 +81,7 @@
           height: 130px;
           top: -5px;
           left: -105px;
+          z-index: -1;
         }
       }
     }

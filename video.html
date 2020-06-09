@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="loading-bar"></div>
+    <div class="header-container">
+      <header class="search-mod header">
+        <img src="logo.png" class="header__mobile-logo" alt="youtube" />
+        <img src="logo2.png" class="header__pc-logo" alt="youtube" />
+        <p>YouTube Page</p>
+        <input type="search" placeholder="search" required />
+        <button class="header__close-icon" />
+        <i class="fa fa-search"></i>
+      </header>
+    </div>
+    <div class="container filter-mod">
+      <section class="video">
+        <iframe
+          class="video__embed"
+          src="https://www.youtube.com/embed/HcW5-P2SNec?autoplay=0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="video__info">
+          <h3 class="video__title">Video Title</h3>
+          <p class="video__channel-name">
+            Channel Name <span class="video__views"> | 2,520,001 views</span>
+          </p>
+          <p class="video__controls">
+            <span>
+              <span class="video__like">
+                <i class="fa fa-thumbs-up"></i> 149K
+              </span>
+              <span> <i class="fa fa-thumbs-down"></i> 5K </span>
+            </span>
+            <span>
+              <i class="fa fa-plus"></i>
+              <i class="fa fa-share video__share"></i>
+              <i class="fa fa-flag"></i>
+            </span>
+          </p>
+        </div>
+        <section class="video__info--pc">
+          <h3 class="video__title">Video Title</h3>
+          <div class="video__statistics">
+            <p class="video__channel-name">
+              <span class="video__name"> Channel Name .</span>
+              <span class="video__views"> 2,520,001 views</span>
+            </p>
+            <p class="video__controls">
+              <span>
+                <span class="video__like">
+                  <i class="fa fa-thumbs-up"></i> 149K
+                </span>
+                <span class="video__dislike">
+                  <i class="fa fa-thumbs-down"></i> 5K
+                </span>
+              </span>
+              <span>
+                <i class="fa fa-plus"></i>
+                <i class="fa fa-share video__share"></i>
+                <i class="fa fa-flag"></i>
+              </span>
+            </p>
+          </div>
+        </section>
+        <section class="channel-info-pc">
+          <img
+            src="https://yt3.ggpht.com/-O4DxaOOQNCM/AAAAAAAAAAI/AAAAAAAAAAA/FHmhtURrzFo/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+            alt=""
+          />
+          <div>
+            <h3>Channel Name</h3>
+            <p>published on 9 Dec 2014</p>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
