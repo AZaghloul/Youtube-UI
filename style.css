@@ -871,13 +871,13 @@ header {
 .channel-intro {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   position: relative;
-  background-color: #f0f0f0; }
+  background-color: #e0e0e0; }
   .channel-intro .channel-intro__name {
     font-size: 25px;
     margin: 0;
+    margin-left: 150px;
     margin-top: 20px; }
   .channel-intro .channel-intro__details {
     display: flex;

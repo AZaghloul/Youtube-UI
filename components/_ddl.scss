@@ -15,11 +15,11 @@
     cursor: pointer;
     border-radius: 5px;
     background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
+    border: 1px solid $gray;
     padding: 10px 50px 10px 10px;
     &:hover,
     &:focus {
-      border: 1px solid #e0e0e0;
+      border: 1px solid $gray;
     }
   }
 

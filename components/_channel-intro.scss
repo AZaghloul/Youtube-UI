@@ -1,14 +1,14 @@
 .channel-intro {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   position: relative;
-  background-color: #f0f0f0;
+  background-color: $gray;
 
   .channel-intro__name {
     font-size: 25px;
     margin: 0;
+    margin-left: 150px;
     margin-top: 20px;
   }
 

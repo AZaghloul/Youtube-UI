@@ -1,5 +1,5 @@
 .video {
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid $gray;
   &__embed {
     width: 100%;
     height: 315px;
@@ -42,7 +42,7 @@
 
 .video__info--pc {
   display: none;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid $gray;
   .video__name {
     display: none;
   }
